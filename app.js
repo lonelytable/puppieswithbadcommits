@@ -25,7 +25,7 @@ app.get('*', function(req,res){
   res.status(404).render('errors/404');
 });
 
-app.listen(3000, function(){
+app.listen(3001, function(){
   console.log("Server is listening on port 3000");
 });
 
