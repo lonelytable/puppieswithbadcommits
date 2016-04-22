@@ -1,3 +1,5 @@
+BY HAMLET TAMAZIAN
+
 ## Git Workflow With Puppies
 
 In this example application, you will be practicing git workflow as a team.
