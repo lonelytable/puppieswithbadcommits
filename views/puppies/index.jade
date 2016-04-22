@@ -9,17 +9,13 @@ block content
     i.glyphicon.glyphicon-pencil
 
   each puppy in puppies
-<<<<<<< HEAD
     h2 Name -  #{puppy.name}
     h4 Age - #{puppy.age}
-=======
-    h2 Name/Age - #{puppy.name}, #{puppy.breed}
->>>>>>> f8392cee40a71afd6d14fd86507625c173a18d4c
 
     p
-      a(href="/puppies/#{puppy.id}") See some more about #{puppy.name}
+      a(href="/puppies/#{puppy.id}") See EVERYTHING more about #{puppy.name}
 
-    a(href="/puppies/#{puppy.id}/edit", class="btn btn-info") Edit this puppy
+    a(href="/puppies/#{puppy.id}/edit", class="btn btn-info") Edit this PUPPY
 
     form(action="/puppies/#{puppy.id}?_method=delete", method="POST")
       input(type="submit" value="Delete this puppy" class="btn btn-danger")
